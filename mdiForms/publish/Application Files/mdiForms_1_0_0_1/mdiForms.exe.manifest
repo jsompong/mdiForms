@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="mdiForms.exe" version="1.0.0.1" publicKeyToken="88f3aad6aabcd2fd" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="mdiForms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="mdiForms.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="mdiForms.exe" size="49120">
+      <assemblyIdentity name="mdiForms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QbkoGiYuniiwIU/Ir05EF37KBp9iwtPcGmg+7QErp/M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="mdiForms.exe.config" size="536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lq1xanvj/9l9euIviNzC2CuLzNmz3qAD/dM6shtMuoQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-SOMPONG\jongm" issuerKeyHash="07f5130f603edd42e8107ea8088ee13cde72920f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sDrWdRJgKNKTYMYnBQlXsQ3moUe7jd7VvziSm2iQq2o=</DigestValue></Reference></SignedInfo><SignatureValue>Q/k3P8SSaZwNxDe0bKMq98c4RTCDMK6WCr9CEVT9kuWlNCtKet8H3PI4BOLg0fL5ZU48AA9qFVPkCykD1k1yeIo1NJYw1nfxXzv/eLkZNchg7DhrXRjKV853RXHn2CEzWjNlIskEzx68GiSuWLUREHcpatu6Q7hO6ImhpSqsiUg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u/QXdf8UdyDkFBXBpvaBxxxXU6eXkYnmdbKLIAhurGYE7a2MRidkAu6MkMmg79VYGsO96wrSogvMmj65aHB8K5mlVj4ztx1osh9Xa4ZuuxzRv9XUqlu0Pl6fo4CJ3iO/P6K35iXuMsVtxo/fWLHcLnmPMthxSqvcXUUmXHC83X0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6aab90689b9238bfd5de8dbb47a1e60db157090527c66093d228601275d63ab0" Description="" Url=""><as:assemblyIdentity name="mdiForms.exe" version="1.0.0.1" publicKeyToken="88f3aad6aabcd2fd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-SOMPONG\jongm</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wbCb1blLmmUdM2e9OBDt38btQL2P4SJkAlN6USqhTVU=</DigestValue></Reference></SignedInfo><SignatureValue>lXwrac+F4D/9yBfMGjrhvd1ucQqZcuw4ES0C+clEG0ib8h4xrxvJp/iMm8tnjXwVSom37uvxu7lASl1Are0LWnDqCHZStt/t6jpm4wFqUU9bUNRbg/ELAzDiAOopB7DcBQLPskNvzJENiPMfZiGfQdQ2iFfOASORJPUbeTX3vH4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u/QXdf8UdyDkFBXBpvaBxxxXU6eXkYnmdbKLIAhurGYE7a2MRidkAu6MkMmg79VYGsO96wrSogvMmj65aHB8K5mlVj4ztx1osh9Xa4ZuuxzRv9XUqlu0Pl6fo4CJ3iO/P6K35iXuMsVtxo/fWLHcLnmPMthxSqvcXUUmXHC83X0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQSZixFIkyvqlGW5JoBJuryzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFMATwBNAFAATwBOAEcAXABqAG8AbgBnAG0wHhcNMjMxMTI4MDgwNjM3WhcNMjQxMTI3MTQwNjM3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFMATwBNAFAATwBOAEcAXABqAG8AbgBnAG0wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALv0F3X/FHcg5BQVwab2gcccV1Onl5GJ5nWyiyAIbqxmBO2tjEYnZALujJDJoO/VWBrDvesK0qILzJo+uWhwfCuZpVY+M7cdaLIfV2uGbrsc0b/V1KpbtD5en6OAid4jvz+it+Yl7jLFbcaP31ix3C55jzLYcUqr3F1FJlxwvN19AgMBAAEwDQYJKoZIhvcNAQELBQADgYEApo7Uz5MnNdUOVeBrNXM5kOPtk0hCH4iCu1tYVjMyaStOZ4elWwlp06O+Rsws6RtweRbtKhxouGWV7X6EaGKHqbpmIe8SzOuHa+h1yaT1U8Hb1n+IKKU0etFIGJXxU1RMiiCl/JIIK2fqWtTLC/+vtV573Ew1KWXhw0HrD9Mnsgg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

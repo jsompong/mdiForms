@@ -1,0 +1,15 @@
+G:\mdiForms\bin\Debug\mdiForms.exe.config
+G:\mdiForms\bin\Debug\mdiForms.exe
+G:\mdiForms\bin\Debug\mdiForms.pdb
+G:\mdiForms\obj\Debug\mdiForms.csproj.AssemblyReference.cache
+G:\mdiForms\obj\Debug\mdiForms.ParentForm.resources
+G:\mdiForms\obj\Debug\mdiForms.Properties.Resources.resources
+G:\mdiForms\obj\Debug\mdiForms.csproj.GenerateResource.cache
+G:\mdiForms\obj\Debug\mdiForms.csproj.CoreCompileInputs.cache
+G:\mdiForms\obj\Debug\mdiForms.exe
+G:\mdiForms\obj\Debug\mdiForms.pdb
+G:\mdiForms\bin\Debug\mdiForms.exe.manifest
+G:\mdiForms\bin\Debug\mdiForms.application
+G:\mdiForms\obj\Debug\mdiForms.exe.manifest
+G:\mdiForms\obj\Debug\mdiForms.application
+G:\mdiForms\obj\Debug\mdiForms.WinApp.resources
